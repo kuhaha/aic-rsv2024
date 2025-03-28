@@ -34,7 +34,7 @@ function make_timeline(id,items, groups, start_time=null, end_time=null, step){
         if (elem.tagName =='A'){
             elem.classList.add('btn','btn-outline-info');
         }else{
-            //element.classList.add('text-info');
+            element.classList.add('text-info');
         }    
     });
     
