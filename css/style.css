@@ -1,0 +1,73 @@
+footer {
+  position: fixed;
+  height: auto;
+  bottom: 0;
+  width: 100%;
+}
+
+.wrapper {
+    margin-right: auto; 
+    margin-left:  auto; 
+    max-width: 960px;  
+    padding-right: 10px; 
+    padding-left:  10px; 
+  }
+  #navbar {
+    background-color: darkgray;
+    color: white;
+    text-align: right;
+    vertical-align:middle;
+    min-height: 20pt;
+  }
+
+  textarea {
+    resize: none;
+    width: 240px;
+    height: 60px;
+  }
+
+  .vis-item.red {
+    color: white;
+    background-color:rgb(255, 72, 72);
+    border-color: darkred;
+  }
+
+  .vis-item.blue {
+    color: white;
+    background-color: rgb(14, 150, 196);
+    border-color: lightblue;
+  }
+
+  .vis-item.green {
+    color: white;
+    background-color:rgb(110, 246, 119);
+    border-color: rgb(1, 138, 44);
+  }
+
+  .vis-item.black {
+    color: white;
+    background-color:rgb(0, 0, 0);
+    border-color: rgb(1, 138, 44);
+  }
+
+  .custom-input {
+    width: 150px;
+    height: 30px;
+    border: 2px solid #000;
+}
+th#sort{
+  position: relative;
+  color: grey;
+}
+
+a#sort {
+  text-decoration: none;
+   /* color: red;  */
+  position: absolute;
+  display: block;
+  width: 90%;
+  height: 90%;
+  top: 0;
+
+  /* line-height: 150px;   */
+}
