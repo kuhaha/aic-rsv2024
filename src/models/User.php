@@ -124,6 +124,8 @@ class User extends Model {
         $conn = $this->db; 
         $userid = htmlspecialchars($userid);
         $passwd = htmlspecialchars($passwd);
+        $userid = $conn->real_escape_string($userid);
+        $passwd = $conn->real_escape_string($passwd);
         $sql = "SELECT * FROM %s WHERE md5(uid)='%s' AND upass='%s'";
         $sql = sprintf($sql, $this->table, md5($userid), md5($passwd));
         $rs = $conn->query($sql);
