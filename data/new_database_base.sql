@@ -149,9 +149,9 @@ CREATE TABLE tb_instrument(
 -- ユーザアカウント情報
 INSERT INTO tb_user
 (uid, urole, uname, upass) VALUES
-('admin1', 9, 'AIC管理者A', md5('a1234567')),
-('admin2', 9, 'AIC管理者B', md5('b1234567')),
-('admin3', 9, 'AIC管理者C', md5('c1234567'));
+('admin1', 9, 'AIC管理者A', md5('aa1234567')),
+('admin2', 9, 'AIC管理者B', md5('bb1234567')),
+('admin3', 9, 'AIC管理者C', md5('cc1234567'));
 
 INSERT INTO tb_member 
 (uid,sid,tel_no,ja_name,dept_code,dept_name,category,authority) VALUES
